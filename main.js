@@ -29,3 +29,25 @@ console.log ("über 18?", isOver18);
 let age = 13
 console.log ("age über 18", age > 18);
 
+let Zahlenliste = [2, 11, 24, 33];
+console.log (Zahlenliste);
+let namesliste = ["Jane", "John"];
+console.log (namesliste);
+console.log (namesliste[1]);
+console.log ("Anzahl der Name: ", namesliste.length)
+
+let benutzer = {
+    vorname: "jane",
+    nachname: "doe",
+    alter: 25
+};
+console.log("Benutzer Alter: ", benutzer.alter);
+benutzer.bestzeit = 200;
+console.log(benutzer);
+benutzer["bestzeit ever"] = 100
+console.log(benutzer);
+
+
+// Benutzer Eingabe
+prompt("wie alt bist du?");
+
