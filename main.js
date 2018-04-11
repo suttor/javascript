@@ -49,5 +49,16 @@ console.log(benutzer);
 
 
 // Benutzer Eingabe
-prompt("wie alt bist du?");
 
+// let alter = prompt("wie alt bist du?");
+// console.log("Du bist ", alter," Jahre alt")
+// console.log ("Über 18?", alter > 18);
+// if (alter > 18) {
+// console.log ("du darft hinein...") 
+// } else {
+//     console.log ("noch nicht 18 ...");
+// }
+
+for (let i=1; i<=10; i++) {
+    console.log("Wert von i", i);
+}
